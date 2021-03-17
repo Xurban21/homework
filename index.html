@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>การอ้างอิงเหตุผลและตัวบ่งปริมาณ</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color:#555F69;">
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+    <a class="navbar-brand">การอ้างอิงเหตุผลและตัวบ่งปริมาณ</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar" >
+    </div>  
+  </nav>
+  <div class="container-fluid" style="margin-top:80px;">
+    
+    <div class="center-content; text-white" style="margin-left: 500px; margin-right: 500px;">
+        <h3><b>ตัวบ่งปริมาณ (∀,∃)</b></h3>
+        ตัวบ่งปริมาณ เป็นตัวระบุจำนวนสมาชิกในเอกภพสัมพัทธ์ที่ทำให้ประโยคเปิดกลายเป็นประพจน์ ตัวบ่งปริมาณมี 2 ชนิด คือ</br>
+        <li>ตัวบ่งปริมาณที่กล่าวถึง “สมาชิกทุกตัวในเอกภพสัมพัทธ์”  ซึ่งเขียนแทนได้ด้วยสัญลักษณ์ “∀” อ่านว่า”สำหรับสมาชิก x ทุกตัว”</br>
+        <li>ตัวบ่งปริมาณที่กล่าวถึง “สมาชิกบางตัวในเอกภพสัมพัทธ์” ซึ่งเขียนแทนได้ด้วยสัญลักษณ์ “∃” อ่านว่า “สำหรับสมาชิก x บางตัว”</li></br></br>
+   
+        <h3><b>ค่าความจริงของประพจน์ที่มีตัวบ่งปริมาณ</b></h3>
+        1.∀x[P(x)] มีค่าความจริงเป็นจริง เมื่อ x ทุกตัวในเอกภพสัมพัทธ์ทำให้ P(x) เป็นจริง</br>
+        2.∀x[P(x)] มีค่าความจริงเป็นเท็จ เมื่อมี x อย่างน้อย 1 ตัวที่ทำให้ P(x) เป็นเท็จ</br>
+        3. ∃x[P(x)] มีค่าความจริงเป็นจริง เมื่อมี x อย่าน้อย 1 ตัวที่ทำให้ P(x) เป็นจริง</br>  
+        4.∃x[P(x)] มีค่าความจริงเป็นเท็จ เมื่อไม่มี x ใดๆ ในเอกภพสัมพัทธ์ที่ทำให้ P(x) เป็นจริง</br></br>
+        
+        <h3><b>นิเสธของประพจน์ที่มีตัวบ่งปริมาณ</b></h3>
+              ~∀x[P(x)] สมมูลกับ ∃x[~P(x)]</br>
+              ~∃x[P(x)] สมมูลกับ∀x[~P(x)]</br>
+              ~∀x[~P(x)] สมมูลกับ∃x[P(x)]</br>
+              ~∃x[~P(x)] สมมูลกับ∀x[P(x)]</br></br>
+        
+        <h3><b>การอ้างเหตุผล</b></h3>
+        การอ้างเหตุผล คือ การอ้างว่า “สำหรับเหตุการณ์ P1, P2,…, Pn ชุดหนึ่ง สามารถสรุปผลที่ตามมา C ได้” การอ้างเหตุผลนี้ ได้รับเลือกเป็นตัวแทนของ ข้อสอบในเรื่องตรรกศาสตร์
+        ให้เป็นข้อสอบเข้ามหาวิทยาลัย อย่าง O-Net และ PAT1 บ่อยๆ จึงเป็นเรื่องที่สำคัญมากการอ้างเหตุผลประกอบด้วย 2 ส่วน คือ</br>
+        <li>เหตุหรือสิ่งที่กำหนดให้</br>
+        <li>ผลหรือสิ่งที่ตามมา</li></br> 
+        สำหรับการพิจารณาว่า การอ้างเหตุผลนั้นสมเหตุสมผลหรือไม่นั้นพิจารณาได้จากประพจน์ ( P1 ∧ P2 ∧ … Pn) → C ถ้าประพจน์ดังกล่าวมีค่าความจริงเป็นจริงเสมอ (เป็นสัจนิรันดร์) เราสามารถสรุปได้ว่าการอ้างเหตุผลดังกล่าวเป็นการอ้างที่สมเหตุสมผล
+        ตัวอย่างเช่น</br>   
+        เหตุ</br>
+        1. p → q</br>
+        2.p</br>
+        ผล q
+</div>
+</div>
+
+</body><div class="container p-3 my-3 bg-dark text-white">
+    <h4><b>ชื่อ-นามสกุล</b></h4>
+    แผนกธุรกิจดิจิทัล
+    <p> นายพันธกานต์ ส้มฉุน เลขที่ 27</br>
+        นายนภัทร วรรณหม้อ เลขที่ 31</br>
+        นายภัทรพล ใหม่รุ่งโรจน์ เลขที่ 18</br>
+        นายวิศรุต ทับตุ๋น เลขที่ 21</br>
+        นายกิตติพงษ์ แตงสี เลขที่ 3</br>
+    </p>
+  </div>
+</html>
